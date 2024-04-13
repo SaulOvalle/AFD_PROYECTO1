@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hgay0ot3+CfeR+vq0ac6QRpc4kNcOAyIre21zirSgtRWpJ2Gn0Q8nz9gRw7uJUh07tYgRv8DDkDrwRbs8gGVFg==",
+  "dgSpecHash": "lUn/JEvaiIPCHC+1w0+wDXdn/secZWJapTGzemcx9clbwF02x7/DXaVpKA7HvxOxbh77CSmkG2LmWQcK/WsmRQ==",
   "success": true,
-  "projectFilePath": "D:\\Escritorio\\AFD_PROYECTO1\\AFD_Grupo1\\AFD_Grupo1\\AFD_Grupo1.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\SEBASTIAN\\.nuget\\packages\\csvhelper\\31.0.3\\csvhelper.31.0.3.nupkg.sha512",
-    "C:\\Users\\SEBASTIAN\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\javie\\OneDrive\\Escritorio\\AFD_PROYECTO1\\AFD_Grupo1\\AFD_Grupo1\\AFD_Grupo1.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

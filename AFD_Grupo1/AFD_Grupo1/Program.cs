@@ -72,50 +72,7 @@ class FiniteAutomata
 class DocumentReader
 {
     private FiniteAutomata automata;
-
-
-    public void PrintTransitionsFromFile(string filePath)
-    {
-        try
-        {
-            string[] lines = File.ReadAllLines(filePath);
-
-            if (lines.Length < 3)
-            {
-                Console.WriteLine("Formato de archivo incorrecto. Líneas insuficientes para configurar el autómata.");
-                return;
-            }
-
-            Console.WriteLine("Transiciones del autómata:");
-
-            for (int i = 3; i < lines.Length; i++)
-            {
-                string[] values = lines[i].Split(',');
-
-                if (values.Length == 3)
-                {
-                    int transitionInitialState = int.Parse(values[0]);
-                    string stringRead = values[1].Trim();
-                    int transitionFinalState = int.Parse(values[2].Trim());
-
-                    // Imprimir la transición
-                    Console.WriteLine($"{transitionInitialState} --({stringRead})--> {transitionFinalState}");
-                }
-                else
-                {
-                    Console.WriteLine($"Formato de línea inválido en la línea {i + 1}: {lines[i]}");
-                }
-            }
-
-            Console.WriteLine($"El autómata tiene un total de {lines.Length - 3} transiciones.");
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Error al leer el archivo: {ex.Message}");
-        }
-    }
-
-
+    
     public FiniteAutomata ReadAutomatonFile(string filePath)
     {
         try
@@ -176,15 +133,23 @@ class Program
 
         while (true)
         {
-
+            Menu();
             try
             {
-                Console.WriteLine("Ingrese la opción deseada: \n 1: Ruta del archivo \n 2: Cadena a validar ");
+                Console.WriteLine("Ingrese la opción deseada: ");
                 int decision = int.Parse(Console.ReadLine());
 
                 if (decision == 1)
                 {
                     Console.Clear();
+                    Console.WriteLine(@"  ___  ______  _____  _   _ _____ _   _  _____ 
+ / _ \ | ___ \/  __ \| | | |_   _| | | ||  _  |
+/ /_\ \| |_/ /| /  \/| |_| | | | | | | || | | |
+|  _  ||    / | |    |  _  | | | | | | || | | |
+| | | || |\ \ | \__/\| | | |_| |_\ \_/ /\ \_/ /
+\_| |_/\_| \_| \____/\_| |_/\___/ \___/  \___/ 
+                                               
+                                               ");
                     Console.WriteLine("Ingrese la ruta del archivo del AFD: ");
                     string filePath = Console.ReadLine();
                     automata = documentReader.ReadAutomatonFile(filePath);
@@ -196,6 +161,14 @@ class Program
                     if (automata != null)
                     {
                         Console.Clear();
+                        Console.WriteLine(@"  ___  ____________ 
+ / _ \ |  ___|  _  \
+/ /_\ \| |_  | | | |
+|  _  ||  _| | | | |
+| | | || |   | |/ / 
+\_| |_/\_|   |___/  
+                    
+                    ");
                         Console.WriteLine("Ingrese una cadena para verificar si el Autómata la acepta: ");
                         string userInput = Console.ReadLine();
 
@@ -238,5 +211,21 @@ class Program
     }
 
 
+    static void Menu()
+    {
+        Console.WriteLine("-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
+        Console.WriteLine(@"______ _____ _____ _   _ _   _ _____ _   _ ___________ _____    ___   _       _____  _____ _   _  ___________  ___ ______ ___________  ______ _____    ___  ____________ 
+| ___ \_   _|  ___| \ | | | | |  ___| \ | |_   _|  _  \  _  |  / _ \ | |     |  __ \|  ___| \ | ||  ___| ___ \/ _ \|  _  \  _  | ___ \ |  _  \  ___|  / _ \ |  ___|  _  \
+| |_/ / | | | |__ |  \| | | | | |__ |  \| | | | | | | | | | | / /_\ \| |     | |  \/| |__ |  \| || |__ | |_/ / /_\ \ | | | | | | |_/ / | | | | |__   / /_\ \| |_  | | | |
+| ___ \ | | |  __|| . ` | | | |  __|| . ` | | | | | | | | | | |  _  || |     | | __ |  __|| . ` ||  __||    /|  _  | | | | | | |    /  | | | |  __|  |  _  ||  _| | | | |
+| |_/ /_| |_| |___| |\  \ \_/ / |___| |\  |_| |_| |/ /\ \_/ / | | | || |____ | |_\ \| |___| |\  || |___| |\ \| | | | |/ /\ \_/ / |\ \  | |/ /| |___  | | | || |   | |/ / 
+\____/ \___/\____/\_| \_/\___/\____/\_| \_/\___/|___/  \___/  \_| |_/\_____/  \____/\____/\_| \_/\____/\_| \_\_| |_/___/  \___/\_| \_| |___/ \____/  \_| |_/\_|   |___/  
+                                                                                                                                                                         
+                                                                                                                                                                         ");
 
+        Console.WriteLine("-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
+        Console.WriteLine("Ingrese el número de la opción que desee:");
+        Console.WriteLine("[1] Ruta del archivo para configuración del AFD");
+        Console.WriteLine("[2] Verificar si la cadena de entrada es aceptada por el autómata\n");
+    }
 }
