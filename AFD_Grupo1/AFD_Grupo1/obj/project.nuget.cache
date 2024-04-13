@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "UiM1wKAb5+EHCpAq3rFAASN9mvO99dM3+ZuhHgURjkF/EZl9tRckJbAfnS6EVio90Y7S+SLkXpaeV3KABdl3og==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\soval\\source\\repos\\AFD_Grupo1\\AFD_Grupo1\\AFD_Grupo1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\soval\\.nuget\\packages\\csvhelper\\31.0.3\\csvhelper.31.0.3.nupkg.sha512",
+    "C:\\Users\\soval\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

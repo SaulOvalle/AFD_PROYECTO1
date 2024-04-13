@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\soval\\source\\repos\\AFD_Grupo1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{04A05983-191C-45CF-94DE-19F3F217F80F}|AFD_Grupo1\\AFD_Grupo1.csproj|c:\\users\\soval\\source\\repos\\afd_grupo1\\afd_grupo1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04A05983-191C-45CF-94DE-19F3F217F80F}|AFD_Grupo1\\AFD_Grupo1.csproj|solutionrelative:afd_grupo1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\soval\\source\\repos\\AFD_Grupo1\\AFD_Grupo1\\Program.cs",
+              "RelativeDocumentMoniker": "AFD_Grupo1\\Program.cs",
+              "ToolTip": "C:\\Users\\soval\\source\\repos\\AFD_Grupo1\\AFD_Grupo1\\Program.cs",
+              "RelativeToolTip": "AFD_Grupo1\\Program.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAUwAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T00:48:10.79Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
