@@ -194,6 +194,11 @@ class Program
                     }
                     Console.ReadLine();
                 }
+                else if (decision == 3)
+                {
+                    Environment.Exit(0);
+                }
+
                 else
                 {
                     break;
@@ -226,6 +231,7 @@ class Program
         Console.WriteLine("-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
         Console.WriteLine("Ingrese el número de la opción que desee:");
         Console.WriteLine("[1] Ruta del archivo para configuración del AFD");
-        Console.WriteLine("[2] Verificar si la cadena de entrada es aceptada por el autómata\n");
+        Console.WriteLine("[2] Verificar si la cadena de entrada es aceptada por el autómata");
+        Console.WriteLine("[3] salir\n");
     }
 }
