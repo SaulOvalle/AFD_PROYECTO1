@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AFD_Grupo1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5745c3cb24761549d17be8c92560f1afbfb4dd8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f153d26289a0969c5f64c3adc0d77aed1e068864")]
 [assembly: System.Reflection.AssemblyProductAttribute("AFD_Grupo1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AFD_Grupo1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -97,23 +97,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\soval\\.nuget\\packages\\": {},
+    "C:\\Users\\SEBASTIAN\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\soval\\OneDrive\\Escritorio\\Nueva carpeta (3)\\AFD_PROYECTO1\\AFD_Grupo1\\AFD_Grupo1\\AFD_Grupo1.csproj",
+      "projectUniqueName": "D:\\Escritorio\\AFD_PROYECTO1\\AFD_Grupo1\\AFD_Grupo1\\AFD_Grupo1.csproj",
       "projectName": "AFD_Grupo1",
-      "projectPath": "C:\\Users\\soval\\OneDrive\\Escritorio\\Nueva carpeta (3)\\AFD_PROYECTO1\\AFD_Grupo1\\AFD_Grupo1\\AFD_Grupo1.csproj",
-      "packagesPath": "C:\\Users\\soval\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\soval\\OneDrive\\Escritorio\\Nueva carpeta (3)\\AFD_PROYECTO1\\AFD_Grupo1\\AFD_Grupo1\\obj\\",
+      "projectPath": "D:\\Escritorio\\AFD_PROYECTO1\\AFD_Grupo1\\AFD_Grupo1\\AFD_Grupo1.csproj",
+      "packagesPath": "C:\\Users\\SEBASTIAN\\.nuget\\packages\\",
+      "outputPath": "D:\\Escritorio\\AFD_PROYECTO1\\AFD_Grupo1\\AFD_Grupo1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\soval\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\SEBASTIAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -134,11 +134,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -170,7 +165,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
